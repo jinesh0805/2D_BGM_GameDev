@@ -1,0 +1,90 @@
+{
+    "version": 1,
+    "name": "Player_Move",
+    "maps": [
+        {
+            "name": "PlayerMove",
+            "id": "e90d1e83-bdd9-4949-9fc7-2e277eb4e66a",
+            "actions": [
+                {
+                    "name": "Player_Move",
+                    "type": "Button",
+                    "id": "d8013a22-0078-49bc-9a93-62b1f70b3ffe",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a8e7c0ba-f4b2-4187-b1a3-5b3e70f7e549",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Forward/Back_Movement",
+                    "id": "d651705d-41b4-4787-936a-ce73bc260436",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3d7036a3-2193-4bd3-9f9e-cef7ae6a6759",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "cee7de60-fc26-404e-a8c1-852c9acfb484",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Jump",
+                    "id": "d1df8a9b-c1be-48e2-936b-21fab243eb6d",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "41825c6a-a927-405a-b7bc-41efcbe68877",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player_Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
